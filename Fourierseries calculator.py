@@ -4,8 +4,8 @@ from sympy import fourier_series, pi, plot
 from sympy.abc import x
 
 def Calc():
-    function_Fourier = input("write down the function")
-    l = float(input("give l"))
+    function_Fourier = input("write down the function:  ")
+    l = float(input("give l :  "))
     s = fourier_series(function_Fourier, (x, -l, l))
 
 
